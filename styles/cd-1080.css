@@ -1,0 +1,34 @@
+/* Styles for screens with at least 1080px width */
+
+* { margin: 0; padding: 0 ; }
+
+header {
+  width: 100%;
+  border: thin blue dashed;
+}
+
+p {
+  margin: 8px;
+}
+
+.container {
+  width: 1080px;
+  margin: 10 auto;
+}
+
+.logo {
+  float: left;
+}
+
+.contact-info {
+  float: right;
+}
+
+.masthead {
+  display: block;
+  overflow: hidden;
+}
+
+.nav {
+  display: block;
+}
