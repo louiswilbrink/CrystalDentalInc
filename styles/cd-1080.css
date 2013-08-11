@@ -2,6 +2,10 @@
 
 * { margin: 0; padding: 0 ; }
 
+body {
+  font-family: 'Lucida Grande', 'LucidakSans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+
 header {
   width: 100%;
   border: thin blue dashed;
@@ -30,5 +34,48 @@ p {
 }
 
 .nav {
+  margin-top: 15px;
   display: block;
+  width: 1080px;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-size: 19px;
+  color: white;
+  height: 45px;
+  text-align: center;
+  background-color: #0e5682;
+}
+
+.nav ul li span {
+  line-height: 45px;
+}
+
+#nav-home {
+  width: 12%;
+}
+
+#nav-about-us {
+  width: 13%;
+}
+
+#nav-meet-the-doctors {
+  width: 18%;
+}
+
+#nav-meet-the-staff {
+  width: 15%;
+}
+
+#nav-new-patient {
+  width: 14%;
+}
+
+#nav-financials {
+  width: 14%;
+}
+
+#nav-contact-us {
+  width: 14%;
 }
