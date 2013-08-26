@@ -1,29 +1,14 @@
 /* Styles for screens with at least 960px width */
 
-@font-face {
-    font-family: 'kaushan_scriptregular';
-    src: url('fonts/kaushan-script-font-squirrel/kaushanscript-regular.eot');
-    src: url('fonts/kaushan-script-font-squirrel/kaushanscript-regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/kaushan-script-font-squirrel/kaushanscript-regular.woff') format('woff'),
-         url('fonts/kaushan-script-font-squirrel/kaushanscript-regular.ttf') format('truetype'),
-         url('fonts/kaushan-script-font-squirrel/kaushanscript-regular.svg#kaushan_scriptregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 * { margin: 0; padding: 0 ; }
 
 body {
-  font-family: 'Lucida Grande', 'LucidakSans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  font-family: 'titillium_webregular', Helvetica, sans-serif;
 }
 
 header {
   width: 100%;
   text-align: center;
-}
-
-p {
-  margin: 8px;
 }
 
 ul {
@@ -35,12 +20,12 @@ li {
 }
 
 .container {
-  width: 960px;
+  width: 940px;
   margin: 0 auto;
 }
 
 .masthead {
-  height: 120px;
+  height: 140px;
   display: block;
   overflow: hidden;
   background-image: url('subtle-backgrounds/brickwall/brickwall.png');
@@ -61,10 +46,14 @@ li {
 
 .contact-info {
   float: right;
+  text-align: right;
+  padding-right: 15px;
 }
 
-.contact-info p {
-  font-family: 'kaushan_scriptregular', Verdana, Tahoma;
+.contact-info .number {
+  font-family: 'lily_script_oneregular', Ariel, sans-serif;
+  font-size: 30px;
+  color: #0e5682;
 }
 
 .nav {
@@ -115,7 +104,7 @@ li {
 }
 
 .cd-carousel {
-  width: 960px;
+  width: 940px;
   margin: auto;
 }
 
@@ -123,7 +112,10 @@ li {
   float: left;
   width: 70%;
   min-height: 300px;
-  background-color: #FFC273;
+}
+
+.main p {
+  font-size: 20px;
 }
 
 .right-pane {
@@ -264,4 +256,63 @@ background-color: #43AB48;
 position: relative;
 top: 0px;
 left: 0px;
+}
+
+.main {
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 3px 0px;
+  -webkit-transition-delay: 0.8s;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-property: opacity;
+  -webkit-transition-timing-function: ease;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(255, 255, 255);
+  background-image: none;
+  background-origin: padding-box;
+  background-size: auto;
+  border-bottom-color: rgb(51, 51, 51);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(51, 51, 51);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(51, 51, 51);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(51, 51, 51);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 3px 0px;
+  color: rgb(51, 51, 51);
+  display: block;
+  line-height: 24px;
+  margin-bottom: 14px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  opacity: 1;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 0px;
+  padding-top: 15px;
+  position: relative;
+  transition-delay: 0.8s;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+  width: 68%;
+  z-index: 1;
+  float: left;
 }

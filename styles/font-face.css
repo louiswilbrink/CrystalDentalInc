@@ -1,0 +1,111 @@
+/* font-face definition only */
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('fonts/kaushan-script/kaushanscript-regular.eot');
+    src: url('fonts/kaushan-script/kaushanscript-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/kaushan-script/kaushanscript-regular.woff') format('woff'),
+         url('fonts/kaushan-script/kaushanscript-regular.ttf') format('truetype'),
+         url('fonts/kaushan-script/kaushanscript-regular.svg#kaushan_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playballregular';
+    src: url('fonts/typesetit-playball/playball.eot');
+    src: url('fonts/typesetit-playball/playball.eot?#iefix') format('embedded-opentype'),
+         url('fonts/typesetit-playball/playball.woff') format('woff'),
+         url('fonts/typesetit-playball/playball.ttf') format('truetype'),
+         url('fonts/typesetit-playball/playball.svg#playballregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'foglihtenno04regular';
+    src: url('fonts/gluk-foglihtenno04/foglihtenno04-070.eot');
+    src: url('fonts/gluk-foglihtenno04/foglihtenno04-070.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gluk-foglihtenno04/foglihtenno04-070.woff') format('woff'),
+         url('fonts/gluk-foglihtenno04/foglihtenno04-070.ttf') format('truetype'),
+         url('fonts/gluk-foglihtenno04/foglihtenno04-070.svg#foglihtenno04regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grand_hotelregular';
+    src: url('fonts/grand-hotel/grandhotel-regular.eot');
+    src: url('fonts/grand-hotel/grandhotel-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/grand-hotel/grandhotel-regular.woff') format('woff'),
+         url('fonts/grand-hotel/grandhotel-regular.ttf') format('truetype'),
+         url('fonts/grand-hotel/grandhotel-regular.svg#grand_hotelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lily_script_oneregular';
+    src: url('fonts/lily-script-one/lilyscriptone-regular.eot');
+    src: url('fonts/lily-script-one/lilyscriptone-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lily-script-one/lilyscriptone-regular.woff') format('woff'),
+         url('fonts/lily-script-one/lilyscriptone-regular.ttf') format('truetype'),
+         url('fonts/lily-script-one/lilyscriptone-regular.svg#lily_script_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'marcellusregular';
+    src: url('fonts/marcellus/marcellus-regular-webfont.eot');
+    src: url('fonts/marcellus/marcellus-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/marcellus/marcellus-regular-webfont.woff') format('woff'),
+         url('fonts/marcellus/marcellus-regular-webfont.ttf') format('truetype'),
+         url('fonts/marcellus/marcellus-regular-webfont.svg#marcellusregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('fonts/pacifico/pacifico.eot');
+    src: url('fonts/pacifico/pacifico.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pacifico/pacifico.woff') format('woff'),
+         url('fonts/pacifico/pacifico.ttf') format('truetype'),
+         url('fonts/pacifico/pacifico.svg#pacificoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'regencielight';
+    src: url('fonts/regencie/regencielight-webfont.eot');
+    src: url('fonts/regencie/regencielight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/regencie/regencielight-webfont.woff') format('woff'),
+         url('fonts/regencie/regencielight-webfont.ttf') format('truetype'),
+         url('fonts/regencie/regencielight-webfont.svg#regencielight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sacramentoregular';
+    src: url('fonts/sacremento/sacramento-regular.eot');
+    src: url('fonts/sacremento/sacramento-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sacremento/sacramento-regular.woff') format('woff'),
+         url('fonts/sacremento/sacramento-regular.ttf') format('truetype'),
+         url('fonts/sacremento/sacramento-regular.svg#sacramentoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titillium_webregular';
+    src: url('fonts/titillium-light/titilliumweb-regular-webfont.eot');
+    src: url('fonts/titillium-light/titilliumweb-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium-light/titilliumweb-regular-webfont.woff') format('woff'),
+         url('fonts/titillium-light/titilliumweb-regular-webfont.ttf') format('truetype'),
+         url('fonts/titillium-light/titilliumweb-regular-webfont.svg#titillium_webregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
